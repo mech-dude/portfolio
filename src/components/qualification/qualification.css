@@ -1,0 +1,110 @@
+:root {
+    --mb-0-25: 0.25rem;
+    --mb-0-5: 0.5rem;
+    --mb-0-75: 0.75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    --hue: 0;
+    --sat: 0%;
+    --title-color: hsl(var(--hue),var(--sat),20%);
+    --title-color-dark: hsl(var(--hue),var(--sat), 0%);
+    --text-color: hsl(var(--hue),var(--sat), 46%);
+    --body-color: hsl(var(--hue),var(--sat), 98%);
+    --container-color: #fff;
+
+    --big-font-size: 3.5rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+    --tiny-font-size: 0.625rem;
+
+
+}
+
+@media screen and (max-width: 992px){
+    :root {
+        --big-font-size: 2.75rem;
+        --h1-font-size: 1.5rem;
+        --h2-font-size: 1.25rem;
+        --h3-font-size: 1rem;
+        --normal-font-size: 0.938rem;
+        --small-font-size: 0.813rem;
+        --smaller-font-size: 0.75rem;
+
+    }
+}
+
+@media (min-width: 769px) {
+    * {
+        width: auto;
+    }
+
+    .qualification_data {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        column-gap: 1.5rem;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .qualification_data {
+        display: grid;
+        grid-template-columns: 1fr auto 100px;
+        column-gap: 1.5rem;
+        font-size: 1.25rem;
+    }
+}
+
+.qualification_button{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    color: var(--title-color);
+    margin: 0 var(--mb-1);
+    cursor: pointer;
+}
+
+.qualification_button:hover {
+    color: var(--title-color-light)
+}
+
+.qualification_active {
+    color: white;
+}
+
+.section_title {
+    font-size: var(--h1-font-size);
+    color:var(--text-color);
+    text-align: center;
+}
+
+.qualification_calendar {
+    font-size: var(--small-font-size);
+}
+
+
+.qualification_rounder {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.qualification_line {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: white;
+    transform: translate(6px, -7px);
+}
