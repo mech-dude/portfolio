@@ -9,7 +9,7 @@ const Home = () => {
               <div className='max-w-[1000px] mx-auto px-8 flex flex-col align-center justify-center h-full text-white'>
               <h2 className='text-5xl sm:text-6xl font-bold pr-4'>Hi there, my name is</h2>
               <h1 className='text-4xl sm:text-6xl font-bold text-[#ffd900]'>Juan Victoria</h1>
-              <div className='flex'>
+              <div className='flex flex-wrap'>
                 <h2 className='text-4xl sm:text-6xl font-bold pr-4'>I'm</h2>
                 <TypeAnimation className='text-4xl sm:text-6xl font-bold' sequence={[
                   'an Engineer',

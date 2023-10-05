@@ -45,31 +45,31 @@ function Dots() {
 <ul>
 
 <li>
-  <a href="#home" className="dot active w-[200px]" data-scroll="home">
+  <a href="#home" className="dot active" data-scroll="home">
     <span>{/*Home*/}</span>
   </a>
 </li>
 
 <li>
-  <a href="#about" className="dot w-[200px]" data-scroll="about">
+  <a href="#about" className="dot" data-scroll="about">
     <span>{/*About*/}</span>
   </a>
 </li>
 
 <li>
-  <a href="#experience" className="dot w-[200px]" data-scroll="experience">
+  <a href="#experience" className="dot" data-scroll="experience">
     <span>{/*Experience*/}</span>
   </a>
 </li>
 
 <li>
-  <a href="#skills" className="dot w-[200px]" data-scroll="skills">
+  <a href="#skills" className="dot" data-scroll="skills">
     <span>{/*Skills*/}</span>
   </a>
 </li>
 
 <li>
-  <a href="#contact" className="dot w-[200px]" data-scroll="contact">
+  <a href="#contact" className="dot" data-scroll="contact">
     <span>{/*Contact*/}</span>
   </a>
 </li>

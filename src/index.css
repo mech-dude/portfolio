@@ -35,7 +35,9 @@
 
     .navbar{
       position: fixed;
-      top:50%; right:20px;
+      top:50%; 
+      width: 30px;
+      right:20px;
       transform: translateY(-50%);
       z-index: 1000;
     }
@@ -46,7 +48,6 @@
     }
     
     .navbar ul li{
-      width: 200px;
       position: relative;
       text-align: right;
     }
